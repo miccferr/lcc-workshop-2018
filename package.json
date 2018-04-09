@@ -1,0 +1,15 @@
+{
+  "name": "glitch-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html2canvas": "^1.0.0-alpha.12",
+    "img-glitch": "^1.0.1"
+  }
+}
