@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "html2canvas": "^1.0.0-alpha.12",
+    "image-glitch": "^1.0.0",
     "img-glitch": "^1.0.1"
   }
 }
