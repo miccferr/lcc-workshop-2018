@@ -29,7 +29,7 @@ let glitcher = () => {
   var img = new Image();
   var mapCanvas = document.querySelector(".mapboxgl-canvas");
   img.src = mapCanvas.toDataURL();
-  const image = new Glitch(img, 500, 3000, 250);
+  const image = new Glitch(img, 1200, 800, 250);
 
   image.element.style.zIndex = 999999;
   image.element.style.position = "absolute";
@@ -62,7 +62,7 @@ map.on("load", function() {
     rotateMap(tmpBearing);
   }, 10);
   // glitch on first location
-  setTimeout(() => glitcher(), 4000);
+  setTimeout(() => glitcher(), 8000);
   // start random locations
   setInterval(() => {
     tmpBearing = 0;
